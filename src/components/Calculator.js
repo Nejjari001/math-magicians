@@ -1,20 +1,31 @@
-import React from 'react';
+import React from "react";
+import calculate from "../logic/calculate";
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: 0,
+      next: null,
+      operation: null,
+    };
+  }
+
+  handlePress = (e) = {
+    const newState = calculate(this.state, e.target.innerText);
+    this.setState(newState);
   }
 
   render() {
+
+    const  { total, next, operation} = this.state;
     return (
       <div className="calc-container">
         <table id="calc" cellSpacing="0">
           <tbody id="calc-body">
             <tr className="result-container">
               <td colSpan="4">
-                <input type="text" className="result" placeholder="0" />
-                {' '}
+                <input type="text" className="result" placeholder="0" />{" "}
               </td>
             </tr>
             <tr>
