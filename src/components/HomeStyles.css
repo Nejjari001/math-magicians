@@ -6,12 +6,12 @@
 
 h1 {
   margin-bottom: 40px;
-  color: rgba(34, 32, 32, 0.48),
+  color: rgba(34, 32, 32, 0.48);
 }
 
 p {
   margin-bottom: 10px;
-  font-style:normal;
+  font-style: normal;
 }
 
 .more {
