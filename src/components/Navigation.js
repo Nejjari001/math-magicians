@@ -1,10 +1,10 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import navStyles from "./Navigation.module.css";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import navStyles from './Navigation.module.css';
 
 const Navigation = () => {
   const activePage = ({ isActive }) => ({
-    color: isActive ? "rgba(46, 0, 230, 0.8)" : "black",
+    color: isActive ? 'rgba(46, 0, 230, 0.8)' : 'black',
   });
 
   return (
@@ -14,13 +14,15 @@ const Navigation = () => {
         <ul className={navStyles.navMenu}>
           <li>
             <NavLink to="/" end style={activePage}>
-              Home{" "}
+              Home
+              {' '}
             </NavLink>
             |
           </li>
           <li>
             <NavLink to="/calculator" style={activePage}>
-              Calculator{" "}
+              Calculator
+              {' '}
             </NavLink>
             |
           </li>
