@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import calculate from '../logic/calculate';
+/* eslint-disable quotes */
+import React, { useState } from "react";
+import calculate from "../logic/calculate";
 
 const Calculator = () => {
   const [state, setState] = useState({
@@ -30,7 +31,7 @@ const Calculator = () => {
             <td>
               <button
                 type="button"
-                className="non-operators"
+                className="non-operators ac"
                 onClick={handlePress}
               >
                 AC

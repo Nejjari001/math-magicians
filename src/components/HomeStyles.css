@@ -1,0 +1,19 @@
+.home {
+  padding: 40px;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 40px;
+  color: rgba(34, 32, 32, 0.48);
+}
+
+p {
+  margin-bottom: 10px;
+  font-style: normal;
+}
+
+.more {
+  font-style: normal;
+}
