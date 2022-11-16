@@ -1,6 +1,6 @@
 /* eslint-disable quotes */
-import operate from "../operate";
 import renderer from "react-test-renderer";
+import operate from "../operate";
 import Operate from "../../components/Calculator";
 
 describe("testing operation", () => {
