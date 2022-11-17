@@ -19,10 +19,12 @@ This is the first project of the Math Magicians application. You will set up the
 
 ## Live Demo (if available)
 
+click [here](https://63760412b8ee0660e66661c4--heroic-banoffee-4234f4.netlify.app/)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
+
 - git clone git@github.com:Nejjari001/math-magicians.git
 - cd math-magicians
 - npm install
@@ -30,30 +32,37 @@ To get a local copy up and running follow these simple example steps:
 - index.html
 
 ### Run Tests
-To track linter errors locally follow these steps:  
+
+To track linter errors locally follow these steps:
 
 Download all the dependencies run:
+
 ```
 npm install
 ```
+
 Track HTML linter errors run:
+
 ```
 npx hint .
 ```
+
 Track CSS linter errors run:
+
 ```
 npx stylelint "**/*.{css,scss}"
 ```
+
 Track JavaScript linter errors run:
+
 ```
 npx eslint .
 ```
 
 ### Deployment
 
-- I used GitHub Pages to deploy my website
+- I Use Netlify to upload repository
 - For more information about publishing sources, see "[About github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)"
-
 
 ## Authors
 
